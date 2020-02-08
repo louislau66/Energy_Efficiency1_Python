@@ -18,7 +18,7 @@ import seaborn as sns
 pd.set_option('display.max_columns',30)
 plt.interactive(False)
 
-df=pd.read_excel(r"C:\Users\Louis\Documents\Metro college\ML2 Project\ENB2012_data.xlsx")
+df=pd.read_excel(r"....\ENB2012_data.xlsx")
 columns=['Relative_Compactness','Surface_Area','Wall_Area','Roof_Area','Overall_Height',
 'Orientation','Glazing_Area','Glazing_Area_Distribution','Heating_Load','Cooling_Load']
 df.columns=columns
